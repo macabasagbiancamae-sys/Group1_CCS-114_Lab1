@@ -28,7 +28,7 @@ body{
   overflow-x:hidden;
 }
 
-/* Top & Side Cat img  ung calico cat*/
+/* Top & Side Cat img*/
 .decor{
   position:absolute;
   display:flex;
@@ -56,7 +56,7 @@ body{
   z-index: 2;
 }
 
-/*4 corner paws na brown */
+/*4 corner paws(brown)*/
 .paw-top-left,
 .paw-bottom-left{
   position: absolute;
@@ -97,7 +97,7 @@ body{
   justify-content:center;
 }
 
-/*h1 text ung Pink na malaki*/
+/*h1 text(Pink)*/
 .card h1{
   color: var(--text-heading);
   font-size: 50px;
@@ -114,7 +114,7 @@ body{
   opacity:0.85;
 }
 
-/* mascot icon - brown cat  ung sa ilalim ng ano*/
+/* mascot icon(brown cat)*/
 .mascot-slot{
   width: 46px;
   height: 34px;
@@ -181,7 +181,7 @@ body{
   object-fit: cover;
 }
 
-/*Hide side cat when there is not enough room beside the card*/
+/*Hide side cat when there isn't enough room beside the card*/
 @media (max-width: 720px){
   .decor-side-cat{ display:none; }
 }
